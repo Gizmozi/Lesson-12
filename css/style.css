@@ -1,0 +1,207 @@
+.wrapper {
+  background: cornflowerblue;
+  width: auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+  min-height: 100%;
+  position: relative;
+}
+.header {
+  padding: 20px;
+  background: blueviolet;
+}
+
+.footer {
+  padding: 20px;
+  background: blueviolet;
+}
+.wrapper {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+/* !! */
+.section__body-translate {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+}
+.section__item-translate:hover {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transform: translate(20px, 20px);
+  transition: all 0.3s ease 0s;
+}
+
+/* !! */
+.section__body-scale {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+}
+.section__item-scales:hover {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transform: scale(0.8);
+  transition: all 0.3s ease 0s;
+}
+
+.section__body-rotate {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+}
+.section__item-rotate:hover {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transform: rotate(50deg);
+  transition: all 0.3s ease 0s;
+}
+.section__body-skew {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+}
+.section__item-skew:hover {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transform: skew(10deg, 10deg);
+  transition: all 0.3s ease 0s;
+}
+.section__body-origin {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+}
+.section__item-origin:hover {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transform-origin: 0 0;
+  transform: rotate(20deg);
+  transition: all 0.3s ease 0s;
+}
+
+.section__body-perspective {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  perspective: 400px;
+}
+.section__item-perspective:hover {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transform: rotateX(50deg);
+  transition: all 0.3s ease 0s;
+}
+
+.section__body-perspectiveorigin {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  perspective: 500px;
+  perspective-origin: 50px 10px;
+}
+.section__item-perspectiveorigin:hover {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transform: rotateX(50deg);
+  transition: all 0.3s ease 0s;
+}
+
+.section__body-3d {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  perspective: 300px;
+}
+.section__item-3d:hover {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transform: translate3d(20px, 20px, 50px);
+  transition: all 0.3s ease 0s;
+}
+/* ! */
+.section__body-rotate3d {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  perspective: 300px;
+}
+.section__item-rotate3d:hover {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(24, 22, 181);
+  transform: rotate3d(2, 20, 2, 50deg);
+  transition: all 0.3s ease 0s;
+}
+/* ! */
+.section__body-transformstyle {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  perspective: 300px;
+  transform-style: flat;
+}
+.section__item-transformstyle:hover {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(24, 22, 181);
+  transform: rotateY(30deg);
+  transition: all 0.3s ease 0s;
+}
+/* ! */
+.section__body-transformpreserve {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(128, 128, 128, 0.8);
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+.section__item-transformpreserve:hover {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(24, 22, 181);
+  transform: rotateY(30deg);
+  transition: all 0.3s ease 0s;
+}
+/* ! */
+.section__body-backfacevisibilily {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(128, 128, 128);
+  perspective: 300px;
+  backface-visibility: hidden;
+}
+.section__item-backfacevisibilily {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(24, 22, 181);
+  transform: rotateY(180deg);
+  transition: all 0.3s ease 0s;
+}
+.section__body-backfacevisibilily:hover .section__item-backfacevisibilily {
+  transform: rotateY(0deg);
+  background-color: green;
+}
+
+/* ! */
